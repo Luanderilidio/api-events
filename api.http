@@ -2,7 +2,7 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "Evento Unemat",
+    "title": "Evento Facvv",
     "details": "um evento para TI",
     "maximumAttendees": 300
 }
