@@ -2,7 +2,38 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "Evento Facvv",
+    "title": "Evento SEP6",
     "details": "um evento para TI",
-    "maximumAttendees": 300
+    "maximumAttendees": 3
 }
+
+###
+
+POST http://localhost:3333/events/31745540-2e32-4d7c-9666-1c8443ad3ad3/attendees    
+Content-Type: application/json
+
+{
+    "name": "Luander Ilidio", 
+    "email": "luander45@gmail.com"
+}
+
+###
+
+GET http://localhost:3333/events/3c9c3cb5-84e1-49ee-b57c-58cd93c1cff2
+
+###
+
+GET http://localhost:3333/attendees/4/badge
+
+###
+
+GET http://localhost:3333/attendees/5/check-in
+
+###
+
+GET http://localhost:3333/events/84d5deb9-b7a7-46c5-9f64-35c73c4ceba4/attendees
+
+
+
+
+
